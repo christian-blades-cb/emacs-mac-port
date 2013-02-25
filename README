@@ -88,7 +88,12 @@
     * under construction now :( *
 
    Plan C.  
-   	If you are using Homebrew, copy "emacs-mac.rb" to your brew's
+
+   	If you are using Homebrew
+
+        $ brew install --HEAD https://raw.github.com/railwaycat/emacs-mac-port/master/emacs-mac.rb
+
+        OR alternatively, copy "emacs-mac.rb" from this repository to your brew's
    	formula directory(usually at /usr/local/Library/Formula/), and
        
         $ brew install --HEAD emacs-mac
